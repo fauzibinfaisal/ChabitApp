@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB17A24322DF45310081D7DF /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB17A24222DF45310081D7DF /* Home.storyboard */; };
+		EB17A24522DF45720081D7DF /* Progress.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB17A24422DF45720081D7DF /* Progress.storyboard */; };
+		EB17A24722DF45890081D7DF /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB17A24622DF45890081D7DF /* Setting.storyboard */; };
+		EB17A24922DF45BA0081D7DF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB17A24822DF45BA0081D7DF /* HomeViewController.swift */; };
+		EB17A24B22DF45D70081D7DF /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB17A24A22DF45D70081D7DF /* ProgressViewController.swift */; };
+		EB17A24F22DF460F0081D7DF /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB17A24E22DF460F0081D7DF /* SettingViewController.swift */; };
 		EBAF1DB222DF04BD002FFFF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAF1DB122DF04BD002FFFF0 /* AppDelegate.swift */; };
 		EBAF1DB422DF04BD002FFFF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAF1DB322DF04BD002FFFF0 /* ViewController.swift */; };
 		EBAF1DB722DF04BD002FFFF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBAF1DB522DF04BD002FFFF0 /* Main.storyboard */; };
@@ -17,6 +23,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB17A24222DF45310081D7DF /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		EB17A24422DF45720081D7DF /* Progress.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Progress.storyboard; sourceTree = "<group>"; };
+		EB17A24622DF45890081D7DF /* Setting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		EB17A24822DF45BA0081D7DF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EB17A24A22DF45D70081D7DF /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		EB17A24E22DF460F0081D7DF /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		EBAF1DAE22DF04BD002FFFF0 /* ChabitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChabitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBAF1DB122DF04BD002FFFF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBAF1DB322DF04BD002FFFF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +51,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB17A23D22DF43650081D7DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EB17A24622DF45890081D7DF /* Setting.storyboard */,
+				EBAF1DB522DF04BD002FFFF0 /* Main.storyboard */,
+				EBAF1DBD22DF04BE002FFFF0 /* LaunchScreen.storyboard */,
+				EB17A24222DF45310081D7DF /* Home.storyboard */,
+				EB17A24422DF45720081D7DF /* Progress.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EB17A23E22DF43DD0081D7DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB17A23F22DF43E90081D7DF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EBAF1DB322DF04BD002FFFF0 /* ViewController.swift */,
+				EB17A24822DF45BA0081D7DF /* HomeViewController.swift */,
+				EB17A24A22DF45D70081D7DF /* ProgressViewController.swift */,
+				EB17A24E22DF460F0081D7DF /* SettingViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		EBAF1DA522DF04BD002FFFF0 = {
 			isa = PBXGroup;
 			children = (
@@ -59,11 +101,11 @@
 		EBAF1DB022DF04BD002FFFF0 /* ChabitApp */ = {
 			isa = PBXGroup;
 			children = (
+				EB17A23F22DF43E90081D7DF /* Controller */,
+				EB17A23E22DF43DD0081D7DF /* Model */,
+				EB17A23D22DF43650081D7DF /* View */,
 				EBAF1DB122DF04BD002FFFF0 /* AppDelegate.swift */,
-				EBAF1DB322DF04BD002FFFF0 /* ViewController.swift */,
-				EBAF1DB522DF04BD002FFFF0 /* Main.storyboard */,
 				EBAF1DBB22DF04BE002FFFF0 /* Assets.xcassets */,
-				EBAF1DBD22DF04BE002FFFF0 /* LaunchScreen.storyboard */,
 				EBAF1DC022DF04BE002FFFF0 /* Info.plist */,
 				EBAF1DB822DF04BD002FFFF0 /* ChabitApp.xcdatamodeld */,
 			);
@@ -129,7 +171,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBAF1DC722DF050D002FFFF0 /* .gitignore in Resources */,
+				EB17A24322DF45310081D7DF /* Home.storyboard in Resources */,
+				EB17A24722DF45890081D7DF /* Setting.storyboard in Resources */,
 				EBAF1DBF22DF04BE002FFFF0 /* LaunchScreen.storyboard in Resources */,
+				EB17A24522DF45720081D7DF /* Progress.storyboard in Resources */,
 				EBAF1DBC22DF04BE002FFFF0 /* Assets.xcassets in Resources */,
 				EBAF1DB722DF04BD002FFFF0 /* Main.storyboard in Resources */,
 			);
@@ -142,9 +187,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB17A24B22DF45D70081D7DF /* ProgressViewController.swift in Sources */,
 				EBAF1DB422DF04BD002FFFF0 /* ViewController.swift in Sources */,
 				EBAF1DBA22DF04BD002FFFF0 /* ChabitApp.xcdatamodeld in Sources */,
 				EBAF1DB222DF04BD002FFFF0 /* AppDelegate.swift in Sources */,
+				EB17A24922DF45BA0081D7DF /* HomeViewController.swift in Sources */,
+				EB17A24F22DF460F0081D7DF /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
