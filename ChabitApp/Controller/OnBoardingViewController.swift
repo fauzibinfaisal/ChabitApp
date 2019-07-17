@@ -56,6 +56,17 @@ class OnBoardingViewController: UIViewController, PaperOnboardingDataSource, Pap
         
         return [
             
+            OnboardingItemInfo(informationImage: UIImage(named: "Logo")!,
+                               title: "Welcome to CHABIT!",
+                               description: "",
+                               pageIcon: UIImage(named: "Logo")!,
+                               color: #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1),
+                               titleColor: #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1),
+                               descriptionColor: #colorLiteral(red: 0.9999960065, green: 1, blue: 1, alpha: 1),
+                               titleFont: UIFont(name: fontName, size: 25)!,
+                               descriptionFont: UIFont(name: fontName, size: 0)!
+            ),
+            
             OnboardingItemInfo(informationImage: UIImage(named: "2r")!,
                                title: "Happier employees are more productive!",
                                description: "",
