@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10CD26E0A0BC9206F4676488 /* Pods_ChabitApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9480CBDAF2DF8A58B4D22A1A /* Pods_ChabitApp.framework */; };
 		EB17A24322DF45310081D7DF /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB17A24222DF45310081D7DF /* Home.storyboard */; };
 		EB17A24522DF45720081D7DF /* Progress.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB17A24422DF45720081D7DF /* Progress.storyboard */; };
 		EB17A24722DF45890081D7DF /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB17A24622DF45890081D7DF /* Setting.storyboard */; };
@@ -24,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13CEF8B5F2E4D480076EA675 /* Pods-ChabitApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChabitApp.release.xcconfig"; path = "Target Support Files/Pods-ChabitApp/Pods-ChabitApp.release.xcconfig"; sourceTree = "<group>"; };
+		9480CBDAF2DF8A58B4D22A1A /* Pods_ChabitApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChabitApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB17A24222DF45310081D7DF /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		EB17A24422DF45720081D7DF /* Progress.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Progress.storyboard; sourceTree = "<group>"; };
 		EB17A24622DF45890081D7DF /* Setting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
@@ -40,6 +43,7 @@
 		EBAF1DBE22DF04BE002FFFF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBAF1DC022DF04BE002FFFF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBAF1DC622DF050D002FFFF0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		FB48D46067E7EA3651D32340 /* Pods-ChabitApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChabitApp.debug.xcconfig"; path = "Target Support Files/Pods-ChabitApp/Pods-ChabitApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,12 +51,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10CD26E0A0BC9206F4676488 /* Pods_ChabitApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CFA70D46B32C505C4CF5F4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9480CBDAF2DF8A58B4D22A1A /* Pods_ChabitApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		869CA942569DB50C8A6313B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB48D46067E7EA3651D32340 /* Pods-ChabitApp.debug.xcconfig */,
+				13CEF8B5F2E4D480076EA675 /* Pods-ChabitApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EB17A23D22DF43650081D7DF /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +113,8 @@
 				EBAF1DC622DF050D002FFFF0 /* .gitignore */,
 				EBAF1DB022DF04BD002FFFF0 /* ChabitApp */,
 				EBAF1DAF22DF04BD002FFFF0 /* Products */,
+				869CA942569DB50C8A6313B3 /* Pods */,
+				0CFA70D46B32C505C4CF5F4F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +147,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EBAF1DC322DF04BE002FFFF0 /* Build configuration list for PBXNativeTarget "ChabitApp" */;
 			buildPhases = (
+				21F4DB0FDD01E292BBF10387 /* [CP] Check Pods Manifest.lock */,
 				EBAF1DAA22DF04BD002FFFF0 /* Sources */,
 				EBAF1DAB22DF04BD002FFFF0 /* Frameworks */,
 				EBAF1DAC22DF04BD002FFFF0 /* Resources */,
@@ -184,6 +210,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21F4DB0FDD01E292BBF10387 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChabitApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EBAF1DAA22DF04BD002FFFF0 /* Sources */ = {
@@ -340,6 +391,7 @@
 		};
 		EBAF1DC422DF04BE002FFFF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB48D46067E7EA3651D32340 /* Pods-ChabitApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -358,6 +410,7 @@
 		};
 		EBAF1DC522DF04BE002FFFF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13CEF8B5F2E4D480076EA675 /* Pods-ChabitApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
