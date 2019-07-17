@@ -13,6 +13,7 @@
 		EB17A24922DF45BA0081D7DF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB17A24822DF45BA0081D7DF /* HomeViewController.swift */; };
 		EB17A24B22DF45D70081D7DF /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB17A24A22DF45D70081D7DF /* ProgressViewController.swift */; };
 		EB17A24F22DF460F0081D7DF /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB17A24E22DF460F0081D7DF /* SettingViewController.swift */; };
+		EB17A25122DF48920081D7DF /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB17A25022DF48920081D7DF /* Habit.swift */; };
 		EBAF1DB222DF04BD002FFFF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAF1DB122DF04BD002FFFF0 /* AppDelegate.swift */; };
 		EBAF1DB422DF04BD002FFFF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAF1DB322DF04BD002FFFF0 /* ViewController.swift */; };
 		EBAF1DB722DF04BD002FFFF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBAF1DB522DF04BD002FFFF0 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 		EB17A24822DF45BA0081D7DF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		EB17A24A22DF45D70081D7DF /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
 		EB17A24E22DF460F0081D7DF /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		EB17A25022DF48920081D7DF /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
 		EBAF1DAE22DF04BD002FFFF0 /* ChabitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChabitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBAF1DB122DF04BD002FFFF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBAF1DB322DF04BD002FFFF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 		EB17A23E22DF43DD0081D7DF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EB17A25022DF48920081D7DF /* Habit.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				EB17A24B22DF45D70081D7DF /* ProgressViewController.swift in Sources */,
 				EBAF1DB422DF04BD002FFFF0 /* ViewController.swift in Sources */,
 				EBAF1DBA22DF04BD002FFFF0 /* ChabitApp.xcdatamodeld in Sources */,
+				EB17A25122DF48920081D7DF /* Habit.swift in Sources */,
 				EBAF1DB222DF04BD002FFFF0 /* AppDelegate.swift in Sources */,
 				EB17A24922DF45BA0081D7DF /* HomeViewController.swift in Sources */,
 				EB17A24F22DF460F0081D7DF /* SettingViewController.swift in Sources */,
