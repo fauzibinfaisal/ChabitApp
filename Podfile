@@ -6,5 +6,5 @@ target 'ChabitApp' do
   use_frameworks!
 
   # Pods for ChabitApp
-
+	pod 'paper-onboarding', '~> 6.1'
 end

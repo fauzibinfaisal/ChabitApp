@@ -7,43 +7,139 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1290E58685A18BC9D8FC05EAFEC3F46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		BF6F4C63BB0A230528BAF38B5DB8AB46 /* Pods-ChabitApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8F98323FCAA88710C086C5E2697296D /* Pods-ChabitApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C50C1EC955EED1D0418D2620679EF5E2 /* Pods-ChabitApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBB6A7BD17E36E4CD62E5D787214110 /* Pods-ChabitApp-dummy.m */; };
+		1050B0EECBD54AD519E2F08750AD00C7 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D700040FA2F709BD422F7857341897D1 /* PageView.swift */; };
+		1871E48516A13506493ECC415D8A2447 /* Pods-ChabitApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 693D22076BDD87C13D1A335BDD8F473F /* Pods-ChabitApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F8CA27785E7774681B1C9C28EAD57A5 /* paper-onboarding-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B3AFADA40A2F3B2B047204F6EBA998 /* paper-onboarding-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37D47AFC8555806D54001A3122375B39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		3FA32D61D3824B9D513408752F5A932C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		478D3C8F62F759CB2BE6C6C921C8A18B /* GestureControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9869A7EF22C80D9AC69E50E36F192A /* GestureControl.swift */; };
+		5E2DCD0078873942C189A035AD70978E /* paper-onboarding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E021F0A536294E55AE640FD181E786A2 /* paper-onboarding-dummy.m */; };
+		70792A14CC8B2D1EF0C9C9E3FACE241D /* OnboardingContantViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B14A3E446B3B7C1FD5566D542AC37FA /* OnboardingContantViewItem.swift */; };
+		874C3C50C8ADD060101C2BC7593E1C10 /* PaperOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9012EF8E6FE7D872A3FFAC48BE9F918E /* PaperOnboarding.swift */; };
+		8B9C425005C6ACF45D9578549170CF37 /* PaperOnboardingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32124BC6C6546BF7E43CCC8A6434C47F /* PaperOnboardingDelegate.swift */; };
+		8C65C504C5D9AB30282D2DF81819DFDE /* PageViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701CF0E01E99C0D703BBC7EB0B28B543 /* PageViewItem.swift */; };
+		8DEFC3FB7A634CDAA30A6D8E1BA6C6B6 /* PaperOnboardingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B6CEFC277327214C85B414CACE62F8 /* PaperOnboardingDataSource.swift */; };
+		A21144083EB459CFFF3349C32F449483 /* FillAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0028C7D8EA59E1E8646F5043C0C686F /* FillAnimationView.swift */; };
+		B267FD14DA78E9D588F91C50F705993B /* PageContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D8267E0DEC3F1AC0321C8C4C021A07 /* PageContainer.swift */; };
+		BC9DCB3CF4D0A6F6D1A4AFD97991BA49 /* OnboardingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F213C7F23852A32F7B11249F8530DC /* OnboardingContentView.swift */; };
+		BE0913F89E915FFAF72B587457F151B3 /* ConstraintsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AD192E9C45994557A6BCFC87DC9A03 /* ConstraintsHelper.swift */; };
+		CB445D673727555E5150B25D1BB141C5 /* Pods-ChabitApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 026BE4B08DAA522B4546150971FBB021 /* Pods-ChabitApp-dummy.m */; };
+		DA44BA9548A11830AECE59FC11D20B76 /* Configuring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2939EF4D46F71F1635A4EE55069680F4 /* Configuring.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B3DBF5E5F70B9B67AF12673A9DF72ECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9D9C2DCB5A474B15290DE893E8D011E;
+			remoteInfo = "paper-onboarding";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		31152A6573BE58B50489DAE46FC9C17C /* Pods-ChabitApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChabitApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3C3C5418AEDD2AF2E4CAEBE1BEC48268 /* Pods-ChabitApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChabitApp.debug.xcconfig"; sourceTree = "<group>"; };
-		3CBB6A7BD17E36E4CD62E5D787214110 /* Pods-ChabitApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChabitApp-dummy.m"; sourceTree = "<group>"; };
-		4EA09921EDD0F350F6F4D548A0CC326D /* Pods-ChabitApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChabitApp-Info.plist"; sourceTree = "<group>"; };
-		5AF2E4E4A542D3381224BFE62CF504C9 /* Pods-ChabitApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChabitApp.modulemap"; sourceTree = "<group>"; };
+		026BE4B08DAA522B4546150971FBB021 /* Pods-ChabitApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChabitApp-dummy.m"; sourceTree = "<group>"; };
+		073D41E54EAD9F485A19B131F2D2932E /* Pods-ChabitApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChabitApp-frameworks.sh"; sourceTree = "<group>"; };
+		0B14A3E446B3B7C1FD5566D542AC37FA /* OnboardingContantViewItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnboardingContantViewItem.swift; path = Source/OnboardingContentView/Item/OnboardingContantViewItem.swift; sourceTree = "<group>"; };
+		2939EF4D46F71F1635A4EE55069680F4 /* Configuring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuring.swift; path = Source/Helpers/Configuring.swift; sourceTree = "<group>"; };
+		32124BC6C6546BF7E43CCC8A6434C47F /* PaperOnboardingDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaperOnboardingDelegate.swift; path = Source/PaperOnboardingDelegate.swift; sourceTree = "<group>"; };
+		3EFFACF2C117802AC233B7F6A3F5DBCB /* Pods-ChabitApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChabitApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		41A4E8440555D80D35BF33805FEA199F /* Pods-ChabitApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChabitApp.modulemap"; sourceTree = "<group>"; };
+		693D22076BDD87C13D1A335BDD8F473F /* Pods-ChabitApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChabitApp-umbrella.h"; sourceTree = "<group>"; };
+		6FE2D770CD154135EF112920EAA74865 /* Pods_ChabitApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ChabitApp.framework; path = "Pods-ChabitApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		701CF0E01E99C0D703BBC7EB0B28B543 /* PageViewItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageViewItem.swift; path = Source/PageView/Item/PageViewItem.swift; sourceTree = "<group>"; };
+		72EB3E73A78692F1D532F34A4D2605A7 /* paper-onboarding-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "paper-onboarding-Info.plist"; sourceTree = "<group>"; };
+		75B3AFADA40A2F3B2B047204F6EBA998 /* paper-onboarding-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "paper-onboarding-umbrella.h"; sourceTree = "<group>"; };
+		84D8267E0DEC3F1AC0321C8C4C021A07 /* PageContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageContainer.swift; path = Source/PageView/PageContainerView/PageContainer.swift; sourceTree = "<group>"; };
+		89B6CEFC277327214C85B414CACE62F8 /* PaperOnboardingDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaperOnboardingDataSource.swift; path = Source/PaperOnboardingDataSource.swift; sourceTree = "<group>"; };
+		8A3FF682EC09E5EFCEE16044CEAC6CEA /* Pods-ChabitApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChabitApp-Info.plist"; sourceTree = "<group>"; };
+		9012EF8E6FE7D872A3FFAC48BE9F918E /* PaperOnboarding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaperOnboarding.swift; path = Source/PaperOnboarding.swift; sourceTree = "<group>"; };
+		98CC85C533AB33DBD91FDEDD1F5A74D3 /* paper-onboarding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "paper-onboarding-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A25FAF9B3551505256EFA041164E3A3E /* Pods-ChabitApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChabitApp.release.xcconfig"; sourceTree = "<group>"; };
+		A2ABD66A329C4A1C2DC7AE5E163036C8 /* paper-onboarding.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "paper-onboarding.xcconfig"; sourceTree = "<group>"; };
+		AD9869A7EF22C80D9AC69E50E36F192A /* GestureControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GestureControl.swift; path = Source/GestureControl/GestureControl.swift; sourceTree = "<group>"; };
+		BCC75291AA41BB6ACBDCA357F8ED80E3 /* paper-onboarding.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "paper-onboarding.modulemap"; sourceTree = "<group>"; };
+		C0028C7D8EA59E1E8646F5043C0C686F /* FillAnimationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FillAnimationView.swift; path = Source/FillAnimationView/FillAnimationView.swift; sourceTree = "<group>"; };
+		C5F213C7F23852A32F7B11249F8530DC /* OnboardingContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnboardingContentView.swift; path = Source/OnboardingContentView/OnboardingContentView.swift; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D8F98323FCAA88710C086C5E2697296D /* Pods-ChabitApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChabitApp-umbrella.h"; sourceTree = "<group>"; };
-		FB021211DA5CED7ECD189300E491F810 /* Pods-ChabitApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChabitApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		FC12B1F1ABE53C3D813A7B99BA8C87E7 /* Pods_ChabitApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ChabitApp.framework; path = "Pods-ChabitApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3442FB1BD56215A3267FD9260615C4B /* Pods-ChabitApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChabitApp.release.xcconfig"; sourceTree = "<group>"; };
+		D4AD192E9C45994557A6BCFC87DC9A03 /* ConstraintsHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintsHelper.swift; path = Source/Helpers/ConstraintsHelper.swift; sourceTree = "<group>"; };
+		D700040FA2F709BD422F7857341897D1 /* PageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageView.swift; path = Source/PageView/PageView.swift; sourceTree = "<group>"; };
+		DA1D46ABD3E4DEBBA8433723BF0B7CE5 /* Pods-ChabitApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChabitApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DF3A03F122BBAF84E08EAAF4B05F62DA /* paper_onboarding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = paper_onboarding.framework; path = "paper-onboarding.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E021F0A536294E55AE640FD181E786A2 /* paper-onboarding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "paper-onboarding-dummy.m"; sourceTree = "<group>"; };
+		ECB9D3A2DAD96F11961C83FB16560C4A /* Pods-ChabitApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChabitApp-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4CB5E2226E51840452DFABB15CE230CA /* Frameworks */ = {
+		B0C2F91C4F30958651EF0CB1629AF9FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1290E58685A18BC9D8FC05EAFEC3F46 /* Foundation.framework in Frameworks */,
+				3FA32D61D3824B9D513408752F5A932C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65E2FA621E6045A63A38B74A72056B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D47AFC8555806D54001A3122375B39 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8AACE32069FD811C6E5410E449406D28 /* Products */ = {
+		00AEC9DB17F12E9E55A49228317996F7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FC12B1F1ABE53C3D813A7B99BA8C87E7 /* Pods_ChabitApp.framework */,
+				171096A72347B300FC0F490262FC2460 /* paper-onboarding */,
 			);
-			name = Products;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0DAC11611B2CABF8D2E42D8A5272F3D7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8B9C1C4F9B03F88442F61E1844FEFA6 /* Pods-ChabitApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		171096A72347B300FC0F490262FC2460 /* paper-onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				2939EF4D46F71F1635A4EE55069680F4 /* Configuring.swift */,
+				D4AD192E9C45994557A6BCFC87DC9A03 /* ConstraintsHelper.swift */,
+				C0028C7D8EA59E1E8646F5043C0C686F /* FillAnimationView.swift */,
+				AD9869A7EF22C80D9AC69E50E36F192A /* GestureControl.swift */,
+				0B14A3E446B3B7C1FD5566D542AC37FA /* OnboardingContantViewItem.swift */,
+				C5F213C7F23852A32F7B11249F8530DC /* OnboardingContentView.swift */,
+				84D8267E0DEC3F1AC0321C8C4C021A07 /* PageContainer.swift */,
+				D700040FA2F709BD422F7857341897D1 /* PageView.swift */,
+				701CF0E01E99C0D703BBC7EB0B28B543 /* PageViewItem.swift */,
+				9012EF8E6FE7D872A3FFAC48BE9F918E /* PaperOnboarding.swift */,
+				89B6CEFC277327214C85B414CACE62F8 /* PaperOnboardingDataSource.swift */,
+				32124BC6C6546BF7E43CCC8A6434C47F /* PaperOnboardingDelegate.swift */,
+				25FB9A1E53988571763910937835FE07 /* Support Files */,
+			);
+			name = "paper-onboarding";
+			path = "paper-onboarding";
+			sourceTree = "<group>";
+		};
+		25FB9A1E53988571763910937835FE07 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCC75291AA41BB6ACBDCA357F8ED80E3 /* paper-onboarding.modulemap */,
+				A2ABD66A329C4A1C2DC7AE5E163036C8 /* paper-onboarding.xcconfig */,
+				E021F0A536294E55AE640FD181E786A2 /* paper-onboarding-dummy.m */,
+				72EB3E73A78692F1D532F34A4D2605A7 /* paper-onboarding-Info.plist */,
+				98CC85C533AB33DBD91FDEDD1F5A74D3 /* paper-onboarding-prefix.pch */,
+				75B3AFADA40A2F3B2B047204F6EBA998 /* paper-onboarding-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/paper-onboarding";
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -54,29 +150,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C23F12A88203DE28A850E7A5700A51BB /* Pods-ChabitApp */ = {
-			isa = PBXGroup;
-			children = (
-				5AF2E4E4A542D3381224BFE62CF504C9 /* Pods-ChabitApp.modulemap */,
-				31152A6573BE58B50489DAE46FC9C17C /* Pods-ChabitApp-acknowledgements.markdown */,
-				FB021211DA5CED7ECD189300E491F810 /* Pods-ChabitApp-acknowledgements.plist */,
-				3CBB6A7BD17E36E4CD62E5D787214110 /* Pods-ChabitApp-dummy.m */,
-				4EA09921EDD0F350F6F4D548A0CC326D /* Pods-ChabitApp-Info.plist */,
-				D8F98323FCAA88710C086C5E2697296D /* Pods-ChabitApp-umbrella.h */,
-				3C3C5418AEDD2AF2E4CAEBE1BEC48268 /* Pods-ChabitApp.debug.xcconfig */,
-				A25FAF9B3551505256EFA041164E3A3E /* Pods-ChabitApp.release.xcconfig */,
-			);
-			name = "Pods-ChabitApp";
-			path = "Target Support Files/Pods-ChabitApp";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				8AACE32069FD811C6E5410E449406D28 /* Products */,
-				F9867A0088F6376BCBE9D447ADEAA1BF /* Targets Support Files */,
+				00AEC9DB17F12E9E55A49228317996F7 /* Pods */,
+				EE5AB2AF64E2CF26852EFB8D0259E437 /* Products */,
+				0DAC11611B2CABF8D2E42D8A5272F3D7 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,44 +169,89 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F9867A0088F6376BCBE9D447ADEAA1BF /* Targets Support Files */ = {
+		E8B9C1C4F9B03F88442F61E1844FEFA6 /* Pods-ChabitApp */ = {
 			isa = PBXGroup;
 			children = (
-				C23F12A88203DE28A850E7A5700A51BB /* Pods-ChabitApp */,
+				41A4E8440555D80D35BF33805FEA199F /* Pods-ChabitApp.modulemap */,
+				3EFFACF2C117802AC233B7F6A3F5DBCB /* Pods-ChabitApp-acknowledgements.markdown */,
+				ECB9D3A2DAD96F11961C83FB16560C4A /* Pods-ChabitApp-acknowledgements.plist */,
+				026BE4B08DAA522B4546150971FBB021 /* Pods-ChabitApp-dummy.m */,
+				073D41E54EAD9F485A19B131F2D2932E /* Pods-ChabitApp-frameworks.sh */,
+				8A3FF682EC09E5EFCEE16044CEAC6CEA /* Pods-ChabitApp-Info.plist */,
+				693D22076BDD87C13D1A335BDD8F473F /* Pods-ChabitApp-umbrella.h */,
+				DA1D46ABD3E4DEBBA8433723BF0B7CE5 /* Pods-ChabitApp.debug.xcconfig */,
+				D3442FB1BD56215A3267FD9260615C4B /* Pods-ChabitApp.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-ChabitApp";
+			path = "Target Support Files/Pods-ChabitApp";
+			sourceTree = "<group>";
+		};
+		EE5AB2AF64E2CF26852EFB8D0259E437 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF3A03F122BBAF84E08EAAF4B05F62DA /* paper_onboarding.framework */,
+				6FE2D770CD154135EF112920EAA74865 /* Pods_ChabitApp.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		D68E5FFDD930C6EBB8B6752164FFA0E5 /* Headers */ = {
+		561FE76A689B4270C3634DC1D5BEDED0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF6F4C63BB0A230528BAF38B5DB8AB46 /* Pods-ChabitApp-umbrella.h in Headers */,
+				1F8CA27785E7774681B1C9C28EAD57A5 /* paper-onboarding-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB43C14B693FDA81D6DD133E5A642EC9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1871E48516A13506493ECC415D8A2447 /* Pods-ChabitApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5221085211E59725E429B939D7D6C9EA /* Pods-ChabitApp */ = {
+		7EEAB3BB68122E9E548BB98915A78547 /* Pods-ChabitApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6008E28858911C0E3EEF460501D6882B /* Build configuration list for PBXNativeTarget "Pods-ChabitApp" */;
+			buildConfigurationList = BA5EB2CC39EF224AD3F6D47A23D198BC /* Build configuration list for PBXNativeTarget "Pods-ChabitApp" */;
 			buildPhases = (
-				D68E5FFDD930C6EBB8B6752164FFA0E5 /* Headers */,
-				967E392FE7B547EFC4EDB3D0EE8ADFC1 /* Sources */,
-				4CB5E2226E51840452DFABB15CE230CA /* Frameworks */,
-				E643A0E646F3FB17C57FC1ED930544FF /* Resources */,
+				AB43C14B693FDA81D6DD133E5A642EC9 /* Headers */,
+				6A3DCB8C1252250E0AA2B9F0B785FCA4 /* Sources */,
+				B0C2F91C4F30958651EF0CB1629AF9FB /* Frameworks */,
+				3E791CB871DF3039C0E06D1037970EFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45F74E9A1B335AA1B4E296933356BC03 /* PBXTargetDependency */,
+			);
+			name = "Pods-ChabitApp";
+			productName = "Pods-ChabitApp";
+			productReference = 6FE2D770CD154135EF112920EAA74865 /* Pods_ChabitApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D9D9C2DCB5A474B15290DE893E8D011E /* paper-onboarding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0ACD282C9E121A3FB0C78F510926E4 /* Build configuration list for PBXNativeTarget "paper-onboarding" */;
+			buildPhases = (
+				561FE76A689B4270C3634DC1D5BEDED0 /* Headers */,
+				BA7E1487B6C4F9D5E55ABF6AAB445C89 /* Sources */,
+				B65E2FA621E6045A63A38B74A72056B3 /* Frameworks */,
+				5FFEB1B73FF6E79992F478458CEFAA73 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-ChabitApp";
-			productName = "Pods-ChabitApp";
-			productReference = FC12B1F1ABE53C3D813A7B99BA8C87E7 /* Pods_ChabitApp.framework */;
+			name = "paper-onboarding";
+			productName = "paper-onboarding";
+			productReference = DF3A03F122BBAF84E08EAAF4B05F62DA /* paper_onboarding.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -145,17 +271,25 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 8AACE32069FD811C6E5410E449406D28 /* Products */;
+			productRefGroup = EE5AB2AF64E2CF26852EFB8D0259E437 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5221085211E59725E429B939D7D6C9EA /* Pods-ChabitApp */,
+				D9D9C2DCB5A474B15290DE893E8D011E /* paper-onboarding */,
+				7EEAB3BB68122E9E548BB98915A78547 /* Pods-ChabitApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E643A0E646F3FB17C57FC1ED930544FF /* Resources */ = {
+		3E791CB871DF3039C0E06D1037970EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FFEB1B73FF6E79992F478458CEFAA73 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -165,17 +299,194 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		967E392FE7B547EFC4EDB3D0EE8ADFC1 /* Sources */ = {
+		6A3DCB8C1252250E0AA2B9F0B785FCA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C50C1EC955EED1D0418D2620679EF5E2 /* Pods-ChabitApp-dummy.m in Sources */,
+				CB445D673727555E5150B25D1BB141C5 /* Pods-ChabitApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA7E1487B6C4F9D5E55ABF6AAB445C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA44BA9548A11830AECE59FC11D20B76 /* Configuring.swift in Sources */,
+				BE0913F89E915FFAF72B587457F151B3 /* ConstraintsHelper.swift in Sources */,
+				A21144083EB459CFFF3349C32F449483 /* FillAnimationView.swift in Sources */,
+				478D3C8F62F759CB2BE6C6C921C8A18B /* GestureControl.swift in Sources */,
+				70792A14CC8B2D1EF0C9C9E3FACE241D /* OnboardingContantViewItem.swift in Sources */,
+				BC9DCB3CF4D0A6F6D1A4AFD97991BA49 /* OnboardingContentView.swift in Sources */,
+				B267FD14DA78E9D588F91C50F705993B /* PageContainer.swift in Sources */,
+				1050B0EECBD54AD519E2F08750AD00C7 /* PageView.swift in Sources */,
+				8C65C504C5D9AB30282D2DF81819DFDE /* PageViewItem.swift in Sources */,
+				5E2DCD0078873942C189A035AD70978E /* paper-onboarding-dummy.m in Sources */,
+				874C3C50C8ADD060101C2BC7593E1C10 /* PaperOnboarding.swift in Sources */,
+				8DEFC3FB7A634CDAA30A6D8E1BA6C6B6 /* PaperOnboardingDataSource.swift in Sources */,
+				8B9C425005C6ACF45D9578549170CF37 /* PaperOnboardingDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		45F74E9A1B335AA1B4E296933356BC03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "paper-onboarding";
+			target = D9D9C2DCB5A474B15290DE893E8D011E /* paper-onboarding */;
+			targetProxy = B3DBF5E5F70B9B67AF12673A9DF72ECB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		045EC6EBA7A14964D5E8E35B60D0C1FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2ABD66A329C4A1C2DC7AE5E163036C8 /* paper-onboarding.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/paper-onboarding/paper-onboarding-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/paper-onboarding/paper-onboarding-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/paper-onboarding/paper-onboarding.modulemap";
+				PRODUCT_MODULE_NAME = paper_onboarding;
+				PRODUCT_NAME = paper_onboarding;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		26D21FD6008D90CFF49A51B9ABB36F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2ABD66A329C4A1C2DC7AE5E163036C8 /* paper-onboarding.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/paper-onboarding/paper-onboarding-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/paper-onboarding/paper-onboarding-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/paper-onboarding/paper-onboarding.modulemap";
+				PRODUCT_MODULE_NAME = paper_onboarding;
+				PRODUCT_NAME = paper_onboarding;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		29E70C6A62748CEE4C27EE2328D7AA12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3442FB1BD56215A3267FD9260615C4B /* Pods-ChabitApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChabitApp/Pods-ChabitApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChabitApp/Pods-ChabitApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		58913858BB7DAA0212F8BDD71727BF01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA1D46ABD3E4DEBBA8433723BF0B7CE5 /* Pods-ChabitApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChabitApp/Pods-ChabitApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChabitApp/Pods-ChabitApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -233,45 +544,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		8B5436ECD5ADC0891BF13E85870E8447 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A25FAF9B3551505256EFA041164E3A3E /* Pods-ChabitApp.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ChabitApp/Pods-ChabitApp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ChabitApp/Pods-ChabitApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -339,44 +611,6 @@
 			};
 			name = Debug;
 		};
-		E13ED47739015F69D3A8306549275552 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C3C5418AEDD2AF2E4CAEBE1BEC48268 /* Pods-ChabitApp.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ChabitApp/Pods-ChabitApp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ChabitApp/Pods-ChabitApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -389,11 +623,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6008E28858911C0E3EEF460501D6882B /* Build configuration list for PBXNativeTarget "Pods-ChabitApp" */ = {
+		BA5EB2CC39EF224AD3F6D47A23D198BC /* Build configuration list for PBXNativeTarget "Pods-ChabitApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E13ED47739015F69D3A8306549275552 /* Debug */,
-				8B5436ECD5ADC0891BF13E85870E8447 /* Release */,
+				58913858BB7DAA0212F8BDD71727BF01 /* Debug */,
+				29E70C6A62748CEE4C27EE2328D7AA12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0ACD282C9E121A3FB0C78F510926E4 /* Build configuration list for PBXNativeTarget "paper-onboarding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045EC6EBA7A14964D5E8E35B60D0C1FE /* Debug */,
+				26D21FD6008D90CFF49A51B9ABB36F80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

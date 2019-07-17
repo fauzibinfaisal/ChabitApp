@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		10CD26E0A0BC9206F4676488 /* Pods_ChabitApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9480CBDAF2DF8A58B4D22A1A /* Pods_ChabitApp.framework */; };
+		C3A5D20522DF55CC004DEE3A /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A5D20422DF55CC004DEE3A /* OnBoardingViewController.swift */; };
 		EB17A24322DF45310081D7DF /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB17A24222DF45310081D7DF /* Home.storyboard */; };
 		EB17A24522DF45720081D7DF /* Progress.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB17A24422DF45720081D7DF /* Progress.storyboard */; };
 		EB17A24722DF45890081D7DF /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB17A24622DF45890081D7DF /* Setting.storyboard */; };
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		13CEF8B5F2E4D480076EA675 /* Pods-ChabitApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChabitApp.release.xcconfig"; path = "Target Support Files/Pods-ChabitApp/Pods-ChabitApp.release.xcconfig"; sourceTree = "<group>"; };
 		9480CBDAF2DF8A58B4D22A1A /* Pods_ChabitApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChabitApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3A5D20422DF55CC004DEE3A /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		EB17A24222DF45310081D7DF /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		EB17A24422DF45720081D7DF /* Progress.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Progress.storyboard; sourceTree = "<group>"; };
 		EB17A24622DF45890081D7DF /* Setting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
@@ -72,7 +74,6 @@
 				FB48D46067E7EA3651D32340 /* Pods-ChabitApp.debug.xcconfig */,
 				13CEF8B5F2E4D480076EA675 /* Pods-ChabitApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -80,10 +81,10 @@
 			isa = PBXGroup;
 			children = (
 				EB17A24622DF45890081D7DF /* Setting.storyboard */,
-				EBAF1DB522DF04BD002FFFF0 /* Main.storyboard */,
 				EBAF1DBD22DF04BE002FFFF0 /* LaunchScreen.storyboard */,
 				EB17A24222DF45310081D7DF /* Home.storyboard */,
 				EB17A24422DF45720081D7DF /* Progress.storyboard */,
+				EBAF1DB522DF04BD002FFFF0 /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -103,6 +104,7 @@
 				EB17A24822DF45BA0081D7DF /* HomeViewController.swift */,
 				EB17A24A22DF45D70081D7DF /* ProgressViewController.swift */,
 				EB17A24E22DF460F0081D7DF /* SettingViewController.swift */,
+				C3A5D20422DF55CC004DEE3A /* OnBoardingViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -151,6 +153,7 @@
 				EBAF1DAA22DF04BD002FFFF0 /* Sources */,
 				EBAF1DAB22DF04BD002FFFF0 /* Frameworks */,
 				EBAF1DAC22DF04BD002FFFF0 /* Resources */,
+				2BCFC7ECDC322F55005F0253 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +237,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		2BCFC7ECDC322F55005F0253 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChabitApp/Pods-ChabitApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/paper-onboarding/paper_onboarding.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/paper_onboarding.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChabitApp/Pods-ChabitApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -244,6 +269,7 @@
 				EB17A24B22DF45D70081D7DF /* ProgressViewController.swift in Sources */,
 				EBAF1DB422DF04BD002FFFF0 /* ViewController.swift in Sources */,
 				EBAF1DBA22DF04BD002FFFF0 /* ChabitApp.xcdatamodeld in Sources */,
+				C3A5D20522DF55CC004DEE3A /* OnBoardingViewController.swift in Sources */,
 				EB17A25122DF48920081D7DF /* Habit.swift in Sources */,
 				EBAF1DB222DF04BD002FFFF0 /* AppDelegate.swift in Sources */,
 				EB17A24922DF45BA0081D7DF /* HomeViewController.swift in Sources */,
@@ -395,7 +421,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 46X9JWL5UU;
+				DEVELOPMENT_TEAM = MTU6Z4VFLV;
 				INFOPLIST_FILE = ChabitApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -414,7 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 46X9JWL5UU;
+				DEVELOPMENT_TEAM = MTU6Z4VFLV;
 				INFOPLIST_FILE = ChabitApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
