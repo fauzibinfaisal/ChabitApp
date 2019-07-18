@@ -67,21 +67,21 @@ class OnBoardingViewController: UIViewController, PaperOnboardingDataSource, Pap
                                descriptionFont: UIFont(name: fontName, size: 0)!
             ),
             
-            OnboardingItemInfo(informationImage: UIImage(named: "2r")!,
+            OnboardingItemInfo(informationImage: UIImage(named: "books")!,
                                title: "Create good habbit from our suggestion activity",
                                description: "",
-                               pageIcon: UIImage(named: "2r")!,
-                               color: #colorLiteral(red: 0.1176470588, green: 0.7411764706, blue: 0.6666666667, alpha: 1),
+                               pageIcon: UIImage(named: "books")!,
+                               color: #colorLiteral(red: 0.09019607843, green: 0.7176470588, blue: 0.831372549, alpha: 1),
                                titleColor: #colorLiteral(red: 0.9999960065, green: 1, blue: 1, alpha: 1),
                                descriptionColor: #colorLiteral(red: 0.9999960065, green: 1, blue: 1, alpha: 1),
                                titleFont: UIFont(name: fontName, size: 25)!,
                                descriptionFont: UIFont(name: fontName, size: 0)!
             ),
             
-            OnboardingItemInfo(informationImage: UIImage(named: "3r")!,
+            OnboardingItemInfo(informationImage: UIImage(named: "heart-rate")!,
                                title: "Knowing your emotional condition by HRV",
                                description: "",
-                               pageIcon: UIImage(named: "3r")!,
+                               pageIcon: UIImage(named: "heart-rate")!,
                                color: #colorLiteral(red: 0.09019607843, green: 0.7176470588, blue: 0.831372549, alpha: 1),
                                titleColor: #colorLiteral(red: 0.9999960065, green: 1, blue: 1, alpha: 1),
                                descriptionColor: #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1),
@@ -89,10 +89,10 @@ class OnBoardingViewController: UIViewController, PaperOnboardingDataSource, Pap
                                descriptionFont: UIFont(name: fontName, size: 0)!
             ),
             
-            OnboardingItemInfo(informationImage: UIImage(named: "3r")!,
+            OnboardingItemInfo(informationImage: UIImage(named: "notification")!,
                                title: "Get instant reminder notification",
                                description: "",
-                               pageIcon: UIImage(named: "3r")!,
+                               pageIcon: UIImage(named: "notification")!,
                                color: #colorLiteral(red: 0.09019607843, green: 0.7176470588, blue: 0.831372549, alpha: 1),
                                titleColor: #colorLiteral(red: 0.9999960065, green: 1, blue: 1, alpha: 1),
                                descriptionColor: #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1),
@@ -100,10 +100,10 @@ class OnBoardingViewController: UIViewController, PaperOnboardingDataSource, Pap
                                descriptionFont: UIFont(name: fontName, size: 0)!
             ),
             
-            OnboardingItemInfo(informationImage: UIImage(named: "3r")!,
+            OnboardingItemInfo(informationImage: UIImage(named: "hiker")!,
                                title: "Lets start your journey to build good habit!",
                                description: "",
-                               pageIcon: UIImage(named: "3r")!,
+                               pageIcon: UIImage(named: "hiker")!,
                                color: #colorLiteral(red: 0.09019607843, green: 0.7176470588, blue: 0.831372549, alpha: 1),
                                titleColor: #colorLiteral(red: 0.9999960065, green: 1, blue: 1, alpha: 1),
                                descriptionColor: #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1),
@@ -124,7 +124,7 @@ class OnBoardingViewController: UIViewController, PaperOnboardingDataSource, Pap
     }
     
     func onboardingWillTransitonToIndex(_ index: Int) {
-        if index == 0 {
+        if index == 3 {
             UIView.animate(withDuration: 0.4) {
                 self.skipButton.alpha = 0
             }
