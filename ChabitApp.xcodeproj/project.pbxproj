@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		10CD26E0A0BC9206F4676488 /* Pods_ChabitApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9480CBDAF2DF8A58B4D22A1A /* Pods_ChabitApp.framework */; };
+		BE20A23722E04DED005CD01D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE20A23622E04DED005CD01D /* CardView.swift */; };
 		EB17A24322DF45310081D7DF /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB17A24222DF45310081D7DF /* Home.storyboard */; };
 		EB17A24522DF45720081D7DF /* Progress.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB17A24422DF45720081D7DF /* Progress.storyboard */; };
 		EB17A24722DF45890081D7DF /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB17A24622DF45890081D7DF /* Setting.storyboard */; };
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		13CEF8B5F2E4D480076EA675 /* Pods-ChabitApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChabitApp.release.xcconfig"; path = "Target Support Files/Pods-ChabitApp/Pods-ChabitApp.release.xcconfig"; sourceTree = "<group>"; };
 		9480CBDAF2DF8A58B4D22A1A /* Pods_ChabitApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChabitApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE20A23622E04DED005CD01D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		EB17A24222DF45310081D7DF /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		EB17A24422DF45720081D7DF /* Progress.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Progress.storyboard; sourceTree = "<group>"; };
 		EB17A24622DF45890081D7DF /* Setting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				EB17A25022DF48920081D7DF /* Habit.swift */,
+				BE20A23622E04DED005CD01D /* CardView.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 				EB17A25122DF48920081D7DF /* Habit.swift in Sources */,
 				EBAF1DB222DF04BD002FFFF0 /* AppDelegate.swift in Sources */,
 				EB17A24922DF45BA0081D7DF /* HomeViewController.swift in Sources */,
+				BE20A23722E04DED005CD01D /* CardView.swift in Sources */,
 				EB17A24F22DF460F0081D7DF /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
